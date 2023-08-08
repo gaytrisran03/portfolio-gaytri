@@ -80,6 +80,10 @@ h6 {
   transition: var(--hoverTransition);
 }
 
+.color{
+  color: #000000 !important;
+}
+
 #header h1 {
   font-size: 48px;
   margin: 0;
@@ -93,7 +97,7 @@ h6 {
 #header h1 a:hover {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: var(--text-gradient);
+  background: black;
   line-height: 1;
   display: inline-block;
 }
@@ -108,6 +112,19 @@ h6 {
   color: var(--titleColor);
   border-bottom: 2px solid rgb(var(--text-color-blue-rgb));
   padding-bottom: 6px;
+}
+
+#header button{
+  font-size: 16px;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
+  background: black;
+  color: #DDD0C8;
+  box-shadow: 0 0 0 1px black;
+  border-radius: 8px;
 }
 
 #header img {
@@ -142,6 +159,10 @@ h6 {
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
+    text-align: center;
+  }
+  #header p {
+    text-align: center;
   }
 
   #header h2 {
@@ -296,7 +317,12 @@ h6 {
   }
 
   .logo-home {
-    display: none;
+    width: 150px !important;
+    height: 150px !important;
+
+  position: relative !important;
+  top: 0 !important;
+  left: min(0px) !important;
   }
 }
 
