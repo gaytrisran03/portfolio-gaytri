@@ -62,6 +62,7 @@
         let header = select("#header");
         let sections = select("section", true);
         let navlinks = select("#navbar .nav-link", true);
+        
 
         navlinks.forEach((item) => {
           item.classList.remove("active");
