@@ -175,7 +175,6 @@ h6 {
   #header h1 {
     font-size: 36px;
     text-align: center;
-    margin-top: 0px !important;
   }
   #header p {
     text-align: center;
@@ -248,7 +247,7 @@ h6 {
   }
 
   #header.header-top h1 {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
